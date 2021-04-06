@@ -10,6 +10,7 @@ import { MessageService } from 'src/app/_services/message.service';
   templateUrl: './member-messages.component.html',
   styleUrls: ['./member-messages.component.css']
 })
+
 export class MemberMessagesComponent implements OnInit {
   @ViewChild('messageForm') messageForm: NgForm
   @Input() messages: Message[];
